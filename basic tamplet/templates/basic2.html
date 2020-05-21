@@ -1,0 +1,17 @@
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>{{l}}</p>
+<ul>
+    {%for item in l%}
+    <li>{{item}}</li>
+    {%endfor%}
+</ul>
+{%if 2 in l%}
+<p>2 is present in list</p>
+{%else%}
+<p>2 is not present</p>
+{%endif%}
+</body> 
+</html>
